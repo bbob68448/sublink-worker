@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "sublink-worker"
+main = "src/index.js"
+compatibility_date = "2024-07-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "SUBLINK_KV", id = "62dd2f7c96784bdf89a3fc75b022a681" }
+]
